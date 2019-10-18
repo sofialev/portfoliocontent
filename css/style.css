@@ -1,0 +1,64 @@
+body{
+  font-family: 'Georgia', sans-serif; /* Test for this*/
+  margin: 0;
+  padding: 0;
+  font-size: 14pt; /* test for this! Make all sizes em or rem */
+  background-color: pink;
+}
+
+li{
+  display: inline;
+  justify-content: flex-end;
+  /* background-color: white; */
+  text-decoration:none;
+}
+
+li .active{
+  background: grey;
+}
+
+h1{
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+}
+
+h2{
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+}
+
+h3{
+  font-size: 16pt;
+  font-style: italic;
+  text-align: left;
+  line-height: 1.5;
+}
+
+p {
+  /* padding: 0 30px; */
+}
+
+.skipcont a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skipcont a:focus{
+  top:0;
+}
+
+footer{
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
